@@ -20,30 +20,16 @@ if (num1 > num2 && num1>num3) {
   valor = alert("El numero mayor es: " +num2);
 }
  else if (num3> num1 && num3 > num2) {
-    valor=alert("El numero mayor es:" + num3);
+    valor=alert("El numero mayor es: " + num3);
 }
+
+else if (num2>num1 || num3>num1){
+  valor=alert("El numero mayor es: " + num2 || num3)
+} 
+
 else if(num1 === num2 && num1 === num3) {
     valor=  alert ("Todos los numeros son iguales")
 }
 else {
-    valor=alert("")
+    valor=alert("Error al arrojar el resultado, reintente.")
 }
-
-
-/*
-
-if(num1 > num2 && num1 > num3){
-    alert("El numero mayor es: " + valor);
-}
-
-else if (num2 > num1 && num2 > num3) {
-    alert("El numero mayor es: " + valor);
-}
-
-else if (num3 > num1 && num3 > num2) {
-    alert("El numero mayor es: " + valor);
-}
-
-else {
-    valor= alert("Todos los numeros son iguales");
-}*/
