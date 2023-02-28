@@ -33,3 +33,4 @@ else if(num1 === num2 && num1 === num3) {
 else {
     valor=alert("Error al arrojar el resultado, reintente.")
 }
+
