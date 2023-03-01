@@ -2,7 +2,6 @@
 
 // Escribe un programa que escriba un numero y este sea divisible por dos.
 
-//let num = 0 ;
 
 let num1 = parseInt(prompt("Ingrese el numero aqui"))
 
